@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meu primeiro titulo HTML</title>
+  </head>
+
+  <body>
+    <h1>O Programador Pragmático</h1>
+    <p>
+      Essa é a primeira linha <br />
+      Essa é a segunda linha
+    </p>
+
+    <figure>
+      <img
+        src="http://ceavi.udesc.br/templates/centro_ceavi/imagens/logo_cabecalho.png"
+      />
+      <figcaption>Legenda da Imagem</figcaption>
+    </figure>
+
+    <br />
+    <a href="http://www.udesc.br">Link da Udesc</a>
+    <br />
+
+    <strong>TAG para Negrito</strong> <br />
+
+    <em>TAG para Enfase</em> 
+    
+    <br />
+
+    <select name="nome" size="3" multiple="multiple">
+      <option value="valor1" selected="selectd">Valor1</option>
+      <option value="valor2" selected="selectd">Valor2</option>
+      <option value="valor3" selected="selectd">Valor3</option>
+    </select> 
+    
+    <br />
+
+    <input type="color" value="#ff0000">
+
+    <br />
+    
+    <form name="subscription">
+        <fieldset>
+            <legend>
+                Preencha algumas informações sobre você:
+            </legend>
+     
+            <label class="label" for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" placeholder="Exemplo: Ana" 
+                        title="Seu nome é requerido" required>
+     
+          <label class="label" for="email">E-mail:</label>
+          <input type="email" name="email" id="email" placeholder="Exemplo: a@b.com.br" 
+                     title="Um email válido é requerido" required>
+     
+          <label class="label" for="twitter">Twitter:</label>
+          <input type="text" name="twitter" id="twitter" placeholder="Exemplo: @abc" 
+                        title="Seu Twitter deve começar com @" pattern="@[a-zA-Z0-9]+">
+     
+        </fieldset>
+        <input type="submit" value="Enviar" />
+     </form>
+  </body>
+</html>
