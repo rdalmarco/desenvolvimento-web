@@ -1,0 +1,91 @@
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Helvetica;
+    font-weight: 100;
+    border-color: black;
+    border-style: groove;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+h1:active {
+    background-color: black;
+    font-family: Cambria;
+}
+
+p {
+  text-align: center;
+}
+
+p:hover {
+  color: blue;   
+}
+
+li:hover{
+  color: rgb(255, 0, 0); 
+}
+
+figure {
+  text-align: center;
+}
+
+header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+}
+
+nav {
+  font-size: 0.8rem;
+}
+
+main {
+  font-size: 1rem;
+  font-style: italic;
+  height: 15rem;
+}
+
+footer {
+  font-size: 0.5rem;
+  height: 2rem;
+}
+
+header, main, footer {
+  display: grid;
+  border: 0.4rem;
+  border-color: black;
+  border-style: solid;
+  border-radius: 1rem;
+  margin : 2px;
+}
+
+ul {
+  border-style: solid;
+  border-radius: 1rem;
+  width: 10rem;
+  margin: 1rem;
+}
+
+#home h1 {
+  width: 20rem;
+  margin: auto;
+  margin-top: 1rem;
+  vertical-align:middle;
+}
+
+#flex-container {
+  display: flex;
+  border: 2px solid black;
+  padding: 10px;
+  height: 150px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  border-radius: 10px;
+  background-color: darkgreen;
+  height: 75px;
+  width: 75px;
+  margin: 0.1rem;
+}
