@@ -27,15 +27,24 @@ function alterarImagemClickBotao(event) {
     img.removeEventListener('click', alterarImagemClickBotao);
   }
 
+  function eventoTela(event) {
+    const teste = document.querySelector('.teste');
+    teste.textContent = 'okokkookokokok'
+  }
+
 //Pegando a imagem e o botão do front end;
 const img = document.querySelector('img');
 const btn = document.querySelector('button');
+const btn2 = document.querySelector('btnTeste');
+
 
 //Chamando a função que eu quero através do click da imagem
 img.addEventListener('click', alterarImagemClickImagem);
 
 //Chamando a função que eu quero através do click do botão
 btn.addEventListener('click', alterarImagemClickBotao);
+
+btn2.addEventListener('click', eventoTela);
 
 function mostrarAlertaDiv(event) {
   console.log(event.target);

@@ -1,0 +1,24 @@
+.inicial {
+ color: firebrick;
+}
+
+.final {
+    color: aqua;
+}
+
+.input {
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+    width: 180px;
+    text-align: center;
+}
+
+#resultInput1 {
+    color: black;
+}
+
+#btnInput {
+  margin: 10px;
+}
+
